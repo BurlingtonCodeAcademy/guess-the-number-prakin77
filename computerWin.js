@@ -11,7 +11,7 @@ function ask(question){
 async function guessNum(){
 //Ask if the guessed number is correct
   let guess = await ask('Did I guess your secret number?')
-  if (guess==="Y" || name==="Yes"){
+  if (guess==="Y" || guess==="Yes"){
       console.log("Yay! I am SMART") 
       process.exit() 
 //the progrem exits and no more response is needed.
